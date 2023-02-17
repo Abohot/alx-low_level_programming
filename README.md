@@ -1,1 +1,1 @@
-This is my first c programming
+# 0x00. C - Hello, World
