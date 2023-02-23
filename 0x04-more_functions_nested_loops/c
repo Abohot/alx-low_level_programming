@@ -21,16 +21,14 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 # 2 "3-print_numbers.c" 2
-
-
-
-
-
+# 11 "3-print_numbers.c"
 void print_numbers(void)
 {
-int i;
+ int number;
 
-for (i = 0; i <= 9; i++)
-_putchar(i + '0');
-_putchar('\n');
+ for (number = '0'; number <= '9'; number++)
+ {
+ char(number);
+ }
+ char('\n');
 }
